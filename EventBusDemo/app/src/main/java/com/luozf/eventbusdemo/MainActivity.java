@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             public SubscriberInfo getSubscriberInfo(Class<?> subscriberClass) {
                 return null;
             }
-        })
+        });
     }
 
     @Subscribe
